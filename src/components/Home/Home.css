@@ -1,0 +1,100 @@
+.home-wrapper {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-direction: row;
+    background-color: aliceblue;
+    background-image: url(../../Images/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 12vh;
+}
+.home-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+}
+
+ .my-image {
+    height: 70%;
+    margin-left: -2px;
+    border-radius: 50%;
+    border: 10px solid #00cba9;
+}
+
+.home-section2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    margin-top: -50px;
+}
+.intro-text1, .intro-text2, .intro-text3{
+    margin-left: 35%;
+}
+
+.intro-text1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #e7008a;
+}
+
+.intro-text2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.intro-text3 {
+    margin-top: 1%;
+    color: rgba(69, 65, 65, 0.967);
+    opacity: 0.8;
+}
+
+.intro-button{
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 48%;
+    padding: 10px;
+    background-color: #e7008a;
+    border: 1px solid #f143ac;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px #49464858;
+}
+
+.home-icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+.home-sub-icon{
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    margin: -10px 20px 0px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #49464858;
+}
+.linkedin-icon {
+    background-image: url(../../Images/linkedin-svgrepo-com.svg);
+}
+
+.github-icon {
+    background-image: url(../../Images/github-svgrepo-com.svg);
+}
+.leetcode-icon{
+    background-image: url(../../Images/leetcode-svgrepo-com.svg);
+}
+
+.gfg-icon {
+    background-image: url(../../Images/geeksforgeeks-svgrepo-com.svg);
+}

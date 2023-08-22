@@ -1,0 +1,44 @@
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    height: min(100vh, 100%);
+}
+
+.projects-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(59, 54, 54);
+    border-bottom: 2px solid #00cba9;
+    margin: 0 20px 0 20px;
+    padding: 10px 0px 10px 0px;
+}
+.projects-section2 {
+    margin: 40px 100px 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects-section2 > .projects-section2-card {
+    margin-top: 50px;
+    flex: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover > img {
+    filter: blur(5px); 
+}
+
+.card__content {
+    height: 90%;
+}
+

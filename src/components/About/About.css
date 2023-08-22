@@ -1,0 +1,57 @@
+.about-wrapper {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.about-section1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(59, 54, 54);
+    border-bottom: 2px solid #00cba9;
+    margin: 0 20px 0 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+.about-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 5% 0% 5%;
+    margin-top: 40px;
+}
+
+.about-section2-background-img {
+    display: flex;
+    justify-self: center;
+    background: url(../../Images/typing-img.webp) #00cba9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    background-color: #00cba9;
+}
+
+.about-section2-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+

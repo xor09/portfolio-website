@@ -1,0 +1,38 @@
+.Header-wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    border-bottom: 2px solid #00cba9;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 5%;
+}
+.header-title {
+    color: #e7008a;
+    margin: 2%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.sub-section {
+    color: #00cba9;
+    font-weight: 700;
+    margin: 2% 5% 2% 0;
+    padding: 0.5%;
+    cursor: pointer;
+}
+
+.sub-section:active {
+  transform: translateY(0.125rem);
+}

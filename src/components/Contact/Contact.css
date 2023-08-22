@@ -1,0 +1,51 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 80px;
+    background-color: #00cba9;
+    background-image: url(../../Images/wave-2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.contact-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fffefe;
+    border-bottom: 3px solid #fffefe;
+    margin: 0 20px 0 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+form {
+    color: #fffefe;
+    font-weight: 700;
+    width: 500px;
+}
+.image-wrapper {
+    padding: 50px;
+}
+.my-image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
